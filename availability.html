@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Kidzone_bootstrap</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Ultimate-Event-Calendar.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md sticky-top shadow" style="background: rgba(127,102,228,0.81);color: #234163;">
+        <div class="container-fluid"><a class="navbar-brand" href="#">Kids Zone</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link text-center" href="classes.html">My Classes<br><i class="fas fa-book-open"></i></a></li>
+                    <li class="nav-item"><a class="nav-link text-center active" href="availability.html">My Availability<br><i class="far fa-calendar-check"></i></a></li>
+                    <li class="nav-item"><a class="nav-link text-center" href="#">Logout<br><i class="fas fa-sign-out-alt"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col">
+            <h3 class="text-center" style="margin-top: 20px;">My Planner</h3>
+        </div>
+    </div>
+    <div style="margin-top: 10px;"></div>
+    <div style="margin-top: 10px;">
+        <div class="container" style="margin-bottom: 11px;">
+            <div class="mt-5 mb-5">
+                <div class="container" id="cal"><i class="fa fa-calendar-o d-none"></i>
+                    <div class="row date-cont date-sticky">
+                        <div class="col">
+                            <p class="text-center text-white mb-2 mt-2" id="year"></p>
+                        </div>
+                    </div>
+                    <div class="row d-none d-md-flex seven-cols days-sticky">
+                        <div class="col-md-1 day days">
+                            <p class="text-center text-white">SUNDAY</p>
+                        </div>
+                        <div class="col-md-1 day days">
+                            <p class="text-center text-white">MONDAY</p>
+                        </div>
+                        <div class="col-md-1 day days">
+                            <p class="text-center text-white">TUESDAY</p>
+                        </div>
+                        <div class="col-md-1 day days">
+                            <p class="text-center text-white">WEDNESDAY</p>
+                        </div>
+                        <div class="col-md-1 day days">
+                            <p class="text-center text-white">THURSDAY</p>
+                        </div>
+                        <div class="col-md-1 day days">
+                            <p class="text-center text-white">FRIDAY</p>
+                        </div>
+                        <div class="col-md-1 day days">
+                            <p class="text-center text-white">SATURDAY</p>
+                        </div>
+                    </div>
+                    <div class="row seven-cols">
+                        <div class="col-md-1 text-truncate d-none d-md-block pl-1 pr-1 day-blank"></div>
+                        <div class="col-md-1 text-truncate d-none d-md-block pl-1 pr-1 day-blank"></div>
+                        <div class="col-md-1 text-truncate d-none d-md-block pl-1 pr-1 day-blank"></div>
+                        <div class="col-md-1 text-truncate d-none d-md-block pl-1 pr-1 day-blank"></div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">1</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">2</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">3</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">4</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">5</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">6</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">7</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">8</p>
+                            <p class="text-center text-white bg-primary event" data-toggle="tooltip" data-bs-tooltip="" title="Click for more info">Cooking Class 12:00 PM</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">9</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">10</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">11</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">12</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">13</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">14</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">15</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">16</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">17</p>
+                            <p class="text-center text-white bg-success event event-spec">English Reading Class 11:00 AM</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">18</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">19</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="text-nowrap date">20</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">21</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">22</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">23</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">24</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="text-nowrap date">25</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">26</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">27</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">28</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">29</p>
+                        </div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">30</p><a href="#"></a></div>
+                        <div class="col-md-1 day bg-events">
+                            <p class="date">31</p><a href="#"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-dark" style="height: 100px;padding: 16px;">
+        <footer>
+            <div class="container">
+                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                <p class="copyright">KidsZone © 2020</p>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/from-and-to-calendar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+    <script src="assets/js/Ultimate-Event-Calendar.js"></script>
+</body>
+
+</html>
